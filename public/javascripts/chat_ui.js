@@ -61,7 +61,7 @@ $(document).ready(function(){
   })
 
   setInterval(function(){
-    socket.emit('rooms')},1000)
+    socket.emit('room')},1000)
   
   $('#send-message').focus()
 
